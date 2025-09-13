@@ -57,15 +57,15 @@ public class frameAlia extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/gambar/icons8-system-information-18.png"))); // NOI18N
-        jLabel1.setText("SISTEM INFORMASI");
+        jLabel1.setText("  SISTEM INFORMASI");
 
         jLabel11.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/gambar/icons8-student-center-20.png"))); // NOI18N
-        jLabel11.setText("Institut Teknologi Mojosari");
+        jLabel11.setText("  Institut Teknologi Mojosari");
 
         jLabel13.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/gambar/icons8-address-20.png"))); // NOI18N
-        jLabel13.setText("Mojosari, Ngepeh, Kec. Loceret");
+        jLabel13.setText("  Jl. Mojosari, Ngepeh, Kec. Loceret");
 
         jLabel15.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel15.setText("Kabupaten Nganjuk, Jawa Timur 64471");
@@ -86,13 +86,11 @@ public class frameAlia extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(6, 6, 6)
-                        .addComponent(jLabel15))
+                    .addComponent(jLabel15)
                     .addComponent(jLabel11)
                     .addComponent(jLabel1)
                     .addComponent(jLabel13))
-                .addGap(13, 13, 13))
+                .addGap(19, 19, 19))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -123,10 +121,12 @@ public class frameAlia extends javax.swing.JFrame {
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/gambar/icons8-home-20.png"))); // NOI18N
         jLabel5.setText("Alamat :");
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/gambar/icons8-github-logo-20.png"))); // NOI18N
         jLabel6.setText("Link GitHub :");
 
         jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
@@ -135,6 +135,7 @@ public class frameAlia extends javax.swing.JFrame {
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/icons8-id-card-20.png"))); // NOI18N
         jLabel4.setText("NIM     :");
 
         jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
@@ -155,9 +156,9 @@ public class frameAlia extends javax.swing.JFrame {
                         .addGap(41, 41, 41))
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel4)
                             .addComponent(jLabel5))
-                        .addGap(5, 5, 5)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel9)
                             .addComponent(jLabel8))
