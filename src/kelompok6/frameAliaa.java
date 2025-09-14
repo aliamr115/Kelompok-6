@@ -42,19 +42,19 @@ public class frameAliaa extends javax.swing.JFrame {
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/gambar/aliaa22.jpg"))); // NOI18N
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(80, 110, 120, 180);
+        jLabel1.setBounds(80, 100, 120, 180);
 
         jLabel2.setFont(new java.awt.Font("Yu Gothic Medium", 1, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("A L I A  M A S R U K H A T U R ");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(220, 90, 362, 40);
+        jLabel2.setBounds(220, 100, 362, 40);
 
         jLabel3.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("R I Z K I Y A H");
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(220, 120, 239, 29);
+        jLabel3.setBounds(220, 130, 239, 29);
         getContentPane().add(jSeparator1);
         jSeparator1.setBounds(221, 153, 350, 3);
 
