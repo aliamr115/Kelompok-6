@@ -42,7 +42,7 @@ public class frameAliaa extends javax.swing.JFrame {
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/gambar/aliaa22.jpg"))); // NOI18N
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(80, 100, 120, 180);
+        jLabel1.setBounds(90, 90, 120, 180);
 
         jLabel2.setFont(new java.awt.Font("Yu Gothic Medium", 1, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
@@ -61,7 +61,7 @@ public class frameAliaa extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/gambar/icons8-id-card-20.png"))); // NOI18N
-        jLabel4.setText("NIM       : 2024.57201.010");
+        jLabel4.setText("NIM      : 2024.57201.010");
         getContentPane().add(jLabel4);
         jLabel4.setBounds(230, 170, 170, 20);
 
@@ -70,25 +70,27 @@ public class frameAliaa extends javax.swing.JFrame {
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/gambar/icons8-home-20.png"))); // NOI18N
         jLabel5.setText("Alamat  : Ngepeh - Loceret - Nganjuk");
         getContentPane().add(jLabel5);
-        jLabel5.setBounds(230, 210, 240, 20);
+        jLabel5.setBounds(230, 200, 240, 20);
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/gambar/icons8-github-logo-20.png"))); // NOI18N
         jLabel6.setText("Link GitHub  :  https://github.com/aliamr115");
         getContentPane().add(jLabel6);
-        jLabel6.setBounds(230, 250, 290, 18);
+        jLabel6.setBounds(230, 230, 290, 18);
 
+        jButton1.setBackground(new java.awt.Color(204, 204, 204));
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton1.setText("Kembali");
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/gambar/icons8-back-20.png"))); // NOI18N
+        jButton1.setText("Back");
         getContentPane().add(jButton1);
-        jButton1.setBounds(280, 320, 90, 23);
+        jButton1.setBounds(450, 310, 110, 27);
 
         jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(102, 153, 255));
         jLabel7.setText("S I S T E M  I N F O R M A S I");
         getContentPane().add(jLabel7);
-        jLabel7.setBounds(50, 300, 200, 20);
+        jLabel7.setBounds(50, 280, 200, 20);
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/gambar/Blue Modern and Simple  Digital Marketing Facebook Cover (1) (1).png"))); // NOI18N
         jLabel8.setText("jLabel8");
