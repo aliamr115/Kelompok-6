@@ -38,8 +38,8 @@ public class aii extends javax.swing.JPanel {
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
 
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -101,16 +101,17 @@ public class aii extends javax.swing.JPanel {
         jLabel13.setText("https://github.com/ainihaaini");
         add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 200, -1, -1));
 
-        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/pict/icons8-exit-20.png"))); // NOI18N
-        add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 0, -1, -1));
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/pict/icons8-exit-20.png"))); // NOI18N
+        jButton2.setBorderPainted(false);
+        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 0, 20, 20));
 
-        jButton1.setBackground(new java.awt.Color(102, 153, 255));
-        jButton1.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/pict/icons8-back-20.png"))); // NOI18N
-        jButton1.setText("Back");
-        jButton1.setBorder(null);
-        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 360, 70, 20));
+        jButton3.setBackground(new java.awt.Color(102, 153, 255));
+        jButton3.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
+        jButton3.setForeground(new java.awt.Color(255, 255, 255));
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/pict/icons8-back-20.png"))); // NOI18N
+        jButton3.setText("Back");
+        jButton3.setFocusPainted(false);
+        add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 350, -1, -1));
 
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/pict/canva19.png"))); // NOI18N
         add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, 600, 380));
@@ -118,13 +119,13 @@ public class aii extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
