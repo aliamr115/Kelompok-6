@@ -42,42 +42,42 @@ public class frameAliaa extends javax.swing.JFrame {
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/gambar/aliaa22.jpg"))); // NOI18N
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(70, 110, 140, 180);
+        jLabel1.setBounds(80, 110, 120, 180);
 
         jLabel2.setFont(new java.awt.Font("Yu Gothic Medium", 1, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("A L I A  M A S R U K H A T U R ");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(220, 120, 362, 40);
+        jLabel2.setBounds(220, 90, 362, 40);
 
         jLabel3.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("R I Z K I Y A H");
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(220, 160, 239, 29);
+        jLabel3.setBounds(220, 120, 239, 29);
         getContentPane().add(jSeparator1);
-        jSeparator1.setBounds(221, 190, 350, 10);
+        jSeparator1.setBounds(221, 153, 350, 3);
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/gambar/icons8-id-card-20.png"))); // NOI18N
         jLabel4.setText("NIM       : 2024.57201.010");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(220, 200, 170, 20);
+        jLabel4.setBounds(230, 170, 170, 20);
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/gambar/icons8-home-20.png"))); // NOI18N
         jLabel5.setText("Alamat  : Ngepeh - Loceret - Nganjuk");
         getContentPane().add(jLabel5);
-        jLabel5.setBounds(220, 230, 240, 20);
+        jLabel5.setBounds(230, 210, 240, 20);
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/gambar/icons8-github-logo-20.png"))); // NOI18N
         jLabel6.setText("Link GitHub  :  https://github.com/aliamr115");
         getContentPane().add(jLabel6);
-        jLabel6.setBounds(220, 260, 290, 18);
+        jLabel6.setBounds(230, 250, 290, 18);
 
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButton1.setText("Kembali");
