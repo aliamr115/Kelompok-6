@@ -58,21 +58,21 @@ public class aii extends javax.swing.JPanel {
         jLabel3.setText("Informasi");
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, -1, -1));
 
-        jLabel4.setFont(new java.awt.Font("Broadway", 1, 18)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Broadway", 1, 24)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("'Ainiha");
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 70, 90, 20));
+        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 50, 110, 20));
 
         jLabel5.setBackground(new java.awt.Color(204, 204, 204));
-        jLabel5.setFont(new java.awt.Font("Broadway", 1, 18)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Broadway", 1, 24)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Qurrotul");
-        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 90, -1, -1));
+        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 80, -1, 20));
 
-        jLabel6.setFont(new java.awt.Font("Broadway", 1, 18)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Broadway", 1, 24)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("'Aini");
-        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 110, -1, -1));
+        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 110, -1, 20));
 
         jLabel8.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/pict/icons8-name-tag-woman-horizontal-20 (1).png"))); // NOI18N
