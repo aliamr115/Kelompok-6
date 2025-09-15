@@ -27,7 +27,6 @@ public class mainFrame extends javax.swing.JFrame {
     private void initComponents() {
 
         jButton1 = new javax.swing.JButton();
-        lbClose = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         btnTalitha = new javax.swing.JButton();
         btnAlia = new javax.swing.JButton();
@@ -45,14 +44,6 @@ public class mainFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        lbClose.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/gambar/icons8-close-20 (1).png"))); // NOI18N
-        lbClose.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                lbCloseMouseClicked(evt);
-            }
-        });
-        getContentPane().add(lbClose, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 10, -1, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/gambar/mainframe1.jpg"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
@@ -135,7 +126,11 @@ public class mainFrame extends javax.swing.JFrame {
 
     private void btnAinihaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAinihaActionPerformed
         // TODO add your handling code here:
-        new aii().setVisible(true); 
+        mainFrame frame = new mainFrame();
+        frame.setContentPane(new aii()); 
+        frame.revalidate();
+        frame.repaint();
+        frame.setVisible(true);
         dispose();
     }//GEN-LAST:event_btnAinihaActionPerformed
 
@@ -156,11 +151,6 @@ public class mainFrame extends javax.swing.JFrame {
         ; 
         dispose();
     }//GEN-LAST:event_btnBurhanActionPerformed
-
-    private void lbCloseMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbCloseMouseClicked
-        // TODO add your handling code here:
-        System.exit(0);
-    }//GEN-LAST:event_lbCloseMouseClicked
 
     /**
      * @param args the command line arguments
@@ -206,6 +196,5 @@ public class mainFrame extends javax.swing.JFrame {
     private javax.swing.JButton btnTalitha;
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel lbClose;
     // End of variables declaration//GEN-END:variables
 }

@@ -9,6 +9,7 @@ package kelompok6;
  * @author Ainiha
  */
 public class aii extends javax.swing.JPanel {
+     
 
     /**
      * Creates new form aii
@@ -124,8 +125,12 @@ public class aii extends javax.swing.JPanel {
 
     private void btnKembaliActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnKembaliActionPerformed
         // TODO add your handling code here:
-        new mainFrame().setVisible(true);
+        new mainFrame().setVisible(true);  
         
+          java.awt.Window window = javax.swing.SwingUtilities.getWindowAncestor(this);
+            if (window != null) {
+            window.dispose();
+         }
     }//GEN-LAST:event_btnKembaliActionPerformed
 
      public static void main(String args[]) {
@@ -136,7 +141,7 @@ public class aii extends javax.swing.JPanel {
          */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Windows".equals(info.getName())) {
+                if ("Nimbus".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
                 }
