@@ -27,7 +27,14 @@ public class mainFrame extends javax.swing.JFrame {
     private void initComponents() {
 
         jButton1 = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
+        lbClose = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        btnTalitha = new javax.swing.JButton();
+        btnAlia = new javax.swing.JButton();
+        btnAiniha = new javax.swing.JButton();
+        btnRama = new javax.swing.JButton();
+        btnBurhan = new javax.swing.JButton();
+        btnMuzakky = new javax.swing.JButton();
 
         jButton1.setText("jButton1");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -37,26 +44,123 @@ public class mainFrame extends javax.swing.JFrame {
         });
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/gambar/mainframe1.jpg"))); // NOI18N
+        lbClose.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/gambar/icons8-close-20 (1).png"))); // NOI18N
+        lbClose.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lbCloseMouseClicked(evt);
+            }
+        });
+        getContentPane().add(lbClose, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 10, -1, -1));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel2)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.TRAILING)
-        );
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/gambar/mainframe1.jpg"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        btnTalitha.setFont(new java.awt.Font("Segoe UI Black", 1, 12)); // NOI18N
+        btnTalitha.setText("TALITHA");
+        btnTalitha.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnTalithaActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btnTalitha, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 200, 94, -1));
+
+        btnAlia.setFont(new java.awt.Font("Segoe UI Black", 1, 12)); // NOI18N
+        btnAlia.setText("ALIA");
+        btnAlia.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAliaActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btnAlia, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 270, 94, -1));
+
+        btnAiniha.setFont(new java.awt.Font("Segoe UI Black", 1, 12)); // NOI18N
+        btnAiniha.setText("AINIHA");
+        btnAiniha.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAinihaActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btnAiniha, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 330, 94, -1));
+
+        btnRama.setFont(new java.awt.Font("Segoe UI Black", 1, 12)); // NOI18N
+        btnRama.setText("RAMA");
+        btnRama.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRamaActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btnRama, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 200, 95, -1));
+
+        btnBurhan.setFont(new java.awt.Font("Segoe UI Black", 1, 12)); // NOI18N
+        btnBurhan.setText("BURHAN");
+        btnBurhan.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnBurhanActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btnBurhan, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 330, 95, -1));
+
+        btnMuzakky.setFont(new java.awt.Font("Segoe UI Black", 1, 12)); // NOI18N
+        btnMuzakky.setText("MUZAKKY");
+        btnMuzakky.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnMuzakkyActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btnMuzakky, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 270, -1, -1));
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        
+       
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void btnTalithaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTalithaActionPerformed
+        // TODO add your handling code here:
+        new talitha().setVisible(true); 
+        dispose();
+    }//GEN-LAST:event_btnTalithaActionPerformed
+
+    private void btnAliaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAliaActionPerformed
+        // TODO add your handling code here:
+        new frameAlia().setVisible(true); 
+        dispose();
+    }//GEN-LAST:event_btnAliaActionPerformed
+
+    private void btnAinihaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAinihaActionPerformed
+        // TODO add your handling code here:
+        new aii().setVisible(true); 
+        dispose();
+    }//GEN-LAST:event_btnAinihaActionPerformed
+
+    private void btnRamaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRamaActionPerformed
+        // TODO add your handling code here:
+        new ramaFrame().setVisible(true); 
+        dispose();
+    }//GEN-LAST:event_btnRamaActionPerformed
+
+    private void btnMuzakkyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMuzakkyActionPerformed
+        // TODO add your handling code here:
+        new frameZakky().setVisible(true); 
+        dispose();
+    }//GEN-LAST:event_btnMuzakkyActionPerformed
+
+    private void btnBurhanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBurhanActionPerformed
+        // TODO add your handling code here:
+        ; 
+        dispose();
+    }//GEN-LAST:event_btnBurhanActionPerformed
+
+    private void lbCloseMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbCloseMouseClicked
+        // TODO add your handling code here:
+        System.exit(0);
+    }//GEN-LAST:event_lbCloseMouseClicked
 
     /**
      * @param args the command line arguments
@@ -69,7 +173,7 @@ public class mainFrame extends javax.swing.JFrame {
          */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Windows".equals(info.getName())) {
+                if ("Nimbus".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
                 }
@@ -94,7 +198,14 @@ public class mainFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnAiniha;
+    private javax.swing.JButton btnAlia;
+    private javax.swing.JButton btnBurhan;
+    private javax.swing.JButton btnMuzakky;
+    private javax.swing.JButton btnRama;
+    private javax.swing.JButton btnTalitha;
     private javax.swing.JButton jButton1;
-    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel lbClose;
     // End of variables declaration//GEN-END:variables
 }
