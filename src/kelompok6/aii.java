@@ -48,15 +48,15 @@ public class aii extends javax.swing.JPanel {
         jLabel2.setBorder(new javax.swing.border.MatteBorder(null));
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, 160, 160));
 
-        jLabel1.setFont(new java.awt.Font("Broadway", 1, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Broadway", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 0, 102));
         jLabel1.setText("Sistem");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 290, -1, -1));
 
-        jLabel3.setFont(new java.awt.Font("Broadway", 1, 18)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Broadway", 1, 24)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(0, 51, 102));
         jLabel3.setText("Informasi");
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, -1, -1));
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 320, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Broadway", 1, 24)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
