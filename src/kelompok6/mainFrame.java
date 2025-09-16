@@ -148,7 +148,7 @@ public class mainFrame extends javax.swing.JFrame {
 
     private void btnBurhanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBurhanActionPerformed
         // TODO add your handling code here:
-        ; 
+         new frameBurhan().setVisible(true);
         dispose();
     }//GEN-LAST:event_btnBurhanActionPerformed
 
