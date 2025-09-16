@@ -79,7 +79,7 @@ public class frameAlia extends javax.swing.JFrame {
         jLabel8.setText("2024.57201.010");
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 190, 100, -1));
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/gambar/WhatsApp Image 2025-09-12 at 14.57.55_87144e08.jpg"))); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/gambar/aliaa22.jpg"))); // NOI18N
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 110, 120, 190));
 
         btnKembali.setBackground(new java.awt.Color(0, 204, 204));
