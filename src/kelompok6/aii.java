@@ -39,7 +39,6 @@ public class aii extends javax.swing.JPanel {
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
-        jButton2 = new javax.swing.JButton();
         btnKembali = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
 
@@ -102,10 +101,6 @@ public class aii extends javax.swing.JPanel {
         jLabel13.setText("https://github.com/ainihaaini");
         add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 200, -1, -1));
 
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/pict/icons8-exit-20.png"))); // NOI18N
-        jButton2.setBorderPainted(false);
-        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 0, 20, 20));
-
         btnKembali.setBackground(new java.awt.Color(102, 153, 255));
         btnKembali.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         btnKembali.setForeground(new java.awt.Color(255, 255, 255));
@@ -167,7 +162,6 @@ public class aii extends javax.swing.JPanel {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnKembali;
-    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
